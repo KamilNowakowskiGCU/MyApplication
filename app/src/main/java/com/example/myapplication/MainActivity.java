@@ -11,4 +11,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public static void main(String[] args) {
+        int k = 8;
+        int f = ++k * 2;
+        System.out.println(f);
+    }
+
 }
